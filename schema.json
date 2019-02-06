@@ -1,0 +1,1675 @@
+{
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "http://example.com/root.json",
+  "type": "object",
+  "title": "The Root Schema",
+  "required": [
+    "ok",
+    "data"
+  ],
+  "properties": {
+    "ok": {
+      "$id": "#/properties/ok",
+      "type": "boolean",
+      "title": "The Ok Schema",
+      "default": false,
+      "examples": [
+        true
+      ]
+    },
+    "data": {
+      "$id": "#/properties/data",
+      "type": "object",
+      "title": "The Data Schema",
+      "required": [
+        "contactFormType",
+        "creation",
+        "id",
+        "modification",
+        "publishDate",
+        "xlink_href",
+        "adLinkForJSONP_xlink_href",
+        "adLinkForXMLData_xlink_href",
+        "companyWideCustomerId",
+        "contactDetails_id",
+        "contactDetails_address_city",
+        "contactDetails_address_houseNumber",
+        "contactDetails_address_postcode",
+        "contactDetails_address_street",
+        "contactDetails_cellPhoneNumber",
+        "contactDetails_cellPhoneNumberAreaCode",
+        "contactDetails_cellPhoneNumberCountryCode",
+        "contactDetails_cellPhoneNumberSubscriber",
+        "contactDetails_company",
+        "contactDetails_countryCode",
+        "contactDetails_email",
+        "contactDetails_faxNumber",
+        "contactDetails_faxNumberAreaCode",
+        "contactDetails_faxNumberCountryCode",
+        "contactDetails_faxNumberSubscriber",
+        "contactDetails_firstname",
+        "contactDetails_homepageUrl",
+        "contactDetails_lastname",
+        "contactDetails_phoneNumber",
+        "contactDetails_phoneNumberAreaCode",
+        "contactDetails_phoneNumberCountryCode",
+        "contactDetails_phoneNumberSubscriber",
+        "contactDetails_salutation",
+        "contactFormConfiguration_addressField",
+        "contactFormConfiguration_applicationPackageCompletedField",
+        "contactFormConfiguration_emailAddressField",
+        "contactFormConfiguration_employmentRelationshipField",
+        "contactFormConfiguration_firstnameField",
+        "contactFormConfiguration_freemiumSettings_duration",
+        "contactFormConfiguration_incomeField",
+        "contactFormConfiguration_lastnameField",
+        "contactFormConfiguration_messageField",
+        "contactFormConfiguration_moveInDateField",
+        "contactFormConfiguration_numberOfPersonsField",
+        "contactFormConfiguration_petsInHouseholdField",
+        "contactFormConfiguration_phoneNumberField",
+        "contactFormConfiguration_premiumProfileRequired",
+        "contactFormConfiguration_salutationField",
+        "imprintLink_xlink_href",
+        "realEstate_id",
+        "realEstate_xsi_type",
+        "realEstate_address_city",
+        "realEstate_address_geoHierarchy_city_fullGeoCodeId",
+        "realEstate_address_geoHierarchy_city_geoCodeId",
+        "realEstate_address_geoHierarchy_city_name",
+        "realEstate_address_geoHierarchy_continent_fullGeoCodeId",
+        "realEstate_address_geoHierarchy_continent_geoCodeId",
+        "realEstate_address_geoHierarchy_country_fullGeoCodeId",
+        "realEstate_address_geoHierarchy_country_geoCodeId",
+        "realEstate_address_geoHierarchy_country_name",
+        "realEstate_address_geoHierarchy_neighbourhood_geoCodeId",
+        "realEstate_address_geoHierarchy_quarter_fullGeoCodeId",
+        "realEstate_address_geoHierarchy_quarter_geoCodeId",
+        "realEstate_address_geoHierarchy_quarter_name",
+        "realEstate_address_geoHierarchy_region_fullGeoCodeId",
+        "realEstate_address_geoHierarchy_region_geoCodeId",
+        "realEstate_address_geoHierarchy_region_name",
+        "realEstate_address_postcode",
+        "realEstate_address_quarter",
+        "realEstate_apartmentType",
+        "realEstate_assistedLiving",
+        "realEstate_attachments",
+        "realEstate_balcony",
+        "realEstate_baseRent",
+        "realEstate_buildingEnergyRatingType",
+        "realEstate_builtInKitchen",
+        "realEstate_calculatedTotalRent",
+        "realEstate_calculatedTotalRentScope",
+        "realEstate_cellar",
+        "realEstate_certificateOfEligibilityNeeded",
+        "realEstate_condition",
+        "realEstate_constructionYear",
+        "realEstate_courtage_hasCourtage",
+        "realEstate_creationDate",
+        "realEstate_deposit",
+        "realEstate_descriptionNote",
+        "realEstate_energyCertificate_energyCertificateAvailability",
+        "realEstate_energyCertificate_energyCertificateCreationDate",
+        "realEstate_energyConsumptionContainsWarmWater",
+        "realEstate_energyPerformanceCertificate",
+        "realEstate_externalId",
+        "realEstate_floor",
+        "realEstate_floorplan",
+        "realEstate_freeFrom",
+        "realEstate_furnishingNote",
+        "realEstate_garden",
+        "realEstate_guestToilet",
+        "realEstate_handicappedAccessible",
+        "realEstate_heatingCosts",
+        "realEstate_heatingCostsInServiceCharge",
+        "realEstate_heatingType",
+        "realEstate_heatingTypeEnev2014",
+        "realEstate_interiorQuality",
+        "realEstate_lastModificationDate",
+        "realEstate_lastRefurbishment",
+        "realEstate_lift",
+        "realEstate_livingSpace",
+        "realEstate_locationNote",
+        "realEstate_numberOfFloors",
+        "realEstate_numberOfRooms",
+        "realEstate_otherNote",
+        "realEstate_petsAllowed",
+        "realEstate_referencePriceApiCall",
+        "realEstate_referencePriceServiceCall",
+        "realEstate_serviceCharge",
+        "realEstate_state",
+        "realEstate_thermalCharacteristic",
+        "realEstate_title",
+        "realEstate_titlePicture_creation",
+        "realEstate_titlePicture_id",
+        "realEstate_titlePicture_modification",
+        "realEstate_titlePicture_publishDate",
+        "realEstate_titlePicture_floorplan",
+        "realEstate_titlePicture_title",
+        "realEstate_titlePicture_titlePicture",
+        "realEstate_titlePicture_urls",
+        "realEstate_totalRent",
+        "realEstate_useAsFlatshareRoom",
+        "realtorValuationJSONLink_xlink_href",
+        "realtorValuationV2JSONLink_xlink_href",
+        "realtorValuationV2JSONPLink_xlink_href"
+      ],
+      "properties": {
+        "contactFormType": {
+          "$id": "#/properties/data/properties/contactFormType",
+          "type": "string",
+          "title": "The Contactformtype Schema",
+          "default": "",
+          "examples": [
+            "LONG"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "creation": {
+          "$id": "#/properties/data/properties/creation",
+          "type": "string",
+          "title": "The Creation Schema",
+          "default": "",
+          "examples": [
+            "2017-07-14T16:20:06.000+02:00"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "id": {
+          "$id": "#/properties/data/properties/id",
+          "type": "string",
+          "title": "The Id Schema",
+          "default": "",
+          "examples": [
+            "56906504"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "modification": {
+          "$id": "#/properties/data/properties/modification",
+          "type": "string",
+          "title": "The Modification Schema",
+          "default": "",
+          "examples": [
+            "2019-01-12T11:32:11.975Z"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "publishDate": {
+          "$id": "#/properties/data/properties/publishDate",
+          "type": "string",
+          "title": "The Publishdate Schema",
+          "default": "",
+          "examples": [
+            "2017-07-14T16:20:06.000+02:00"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "xlink_href": {
+          "$id": "#/properties/data/properties/xlink_href",
+          "type": "string",
+          "title": "The Xlink_href Schema",
+          "default": "",
+          "examples": [
+            "https://rest.immobilienscout24.de/restapi/api/search/v1.0/expose/56906504"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "adLinkForJSONP_xlink_href": {
+          "$id": "#/properties/data/properties/adLinkForJSONP_xlink_href",
+          "type": "string",
+          "title": "The Adlinkforjsonp_xlink_href Schema",
+          "default": "",
+          "examples": [
+            "pubads.g.doubleclick.net/gampad/adx?iu=/4467/IS24_APP_DE/app_gallery_ad&sz=420x315&c=2&dpt=1&pre=1%3Dis54&tile=1&m=text/xml&t=obj_regio1%3DBerlin%26obj_serviceCharge%3D400%26obj_heatingType%3Dcentral_heating%26obj_cId%3D377811%26obj_newlyConst%3Dn%26obj_balcony%3Dy%26obj_picture%3Dhttps%3A%2F%2Fpictures.immobilienscout24.de%2Flistings%2F5816a52c-3e61-48c4-aef7-861207e26f5b-617586092.jpg%2FORIG%2Fresize%2F118x118%25253E%2Fextent%2F118x118%2Fformat%2Fjpg%26obj_picturecount%3D11%26obj_totalRent%3D2115.19%26obj_yearConstructed%3D1880%26obj_scoutId%3D56906504%26obj_hasKitchen%3Dy%26geo_bln%3DBerlin%26obj_cellar%3Dn%26obj_yearConstructedRange%3D1%26obj_baseRent%3D1715.19%26obj_houseNumber%3Dno_information%26obj_energyType%3Denergy_consumption%26obj_livingSpace%3D115%26geo_krs%3DBerlin%26obj_zipCode%3D10115%26obj_condition%3Dfirst_time_use_after_refurbishment%26obj_interiorQual%3Dsophisticated%26obj_petsAllowed%3Dno_information%26obj_street%3Dno_information%26obj_lift%3Dy%26obj_depositLink%3Dy%26obj_baseRentRange%3D8%26obj_streetPlain%3Dno_information%26obj_typeOfFlat%3Droof_storey%26geo_plz%3D10115%26obj_noRooms%3D3%26obj_assistedLiving%3Dn%26obj_thermalChar%3D91%26obj_lastRefurbish%3D2010%26obj_ityp%3D0%2Cactive%26geo_land%3DDeutschland%26obj_immotype%3Dwohnung_miete%26obj_heatingCosts%3D200%26obj_floor%3D5%26obj_cwId%3D001.377811%26obj_numberOfFloors%3D5%26obj_noRoomsRange%3D3%26obj_garden%3Dn%26obj_barrierFree%3Dn%26obj_regio3%3DMitte_Mitte%26obj_objectnumber%3D56906504%26obj_livingSpaceRange%3D5%26obj_regio2%3DBerlin"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "adLinkForXMLData_xlink_href": {
+          "$id": "#/properties/data/properties/adLinkForXMLData_xlink_href",
+          "type": "string",
+          "title": "The Adlinkforxmldata_xlink_href Schema",
+          "default": "",
+          "examples": [
+            "https://pubads.g.doubleclick.net/gampad/adx?iu=/4467/IS24_APP_DE/app_gallery_ad&sz=420x315&c=2&dpt=1&pre=1%3Dis54&tile=1&m=text/xml&t=obj_regio1%3DBerlin%26obj_serviceCharge%3D400%26obj_heatingType%3Dcentral_heating%26obj_cId%3D377811%26obj_newlyConst%3Dn%26obj_balcony%3Dy%26obj_picture%3Dhttps%3A%2F%2Fpictures.immobilienscout24.de%2Flistings%2F5816a52c-3e61-48c4-aef7-861207e26f5b-617586092.jpg%2FORIG%2Fresize%2F118x118%25253E%2Fextent%2F118x118%2Fformat%2Fjpg%26obj_picturecount%3D11%26obj_totalRent%3D2115.19%26obj_yearConstructed%3D1880%26obj_scoutId%3D56906504%26obj_hasKitchen%3Dy%26geo_bln%3DBerlin%26obj_cellar%3Dn%26obj_yearConstructedRange%3D1%26obj_baseRent%3D1715.19%26obj_houseNumber%3Dno_information%26obj_energyType%3Denergy_consumption%26obj_livingSpace%3D115%26geo_krs%3DBerlin%26obj_zipCode%3D10115%26obj_condition%3Dfirst_time_use_after_refurbishment%26obj_interiorQual%3Dsophisticated%26obj_petsAllowed%3Dno_information%26obj_street%3Dno_information%26obj_lift%3Dy%26obj_depositLink%3Dy%26obj_baseRentRange%3D8%26obj_streetPlain%3Dno_information%26obj_typeOfFlat%3Droof_storey%26geo_plz%3D10115%26obj_noRooms%3D3%26obj_assistedLiving%3Dn%26obj_thermalChar%3D91%26obj_lastRefurbish%3D2010%26obj_ityp%3D0%2Cactive%26geo_land%3DDeutschland%26obj_immotype%3Dwohnung_miete%26obj_heatingCosts%3D200%26obj_floor%3D5%26obj_cwId%3D001.377811%26obj_numberOfFloors%3D5%26obj_noRoomsRange%3D3%26obj_garden%3Dn%26obj_barrierFree%3Dn%26obj_regio3%3DMitte_Mitte%26obj_objectnumber%3D56906504%26obj_livingSpaceRange%3D5%26obj_regio2%3DBerlin"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "companyWideCustomerId": {
+          "$id": "#/properties/data/properties/companyWideCustomerId",
+          "type": "string",
+          "title": "The Companywidecustomerid Schema",
+          "default": "",
+          "examples": [
+            "001.377811"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "contactDetails_id": {
+          "$id": "#/properties/data/properties/contactDetails_id",
+          "type": "string",
+          "title": "The Contactdetails_id Schema",
+          "default": "",
+          "examples": [
+            "56906504"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "contactDetails_address_city": {
+          "$id": "#/properties/data/properties/contactDetails_address_city",
+          "type": "string",
+          "title": "The Contactdetails_address_city Schema",
+          "default": "",
+          "examples": [
+            "Berlin"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "contactDetails_address_houseNumber": {
+          "$id": "#/properties/data/properties/contactDetails_address_houseNumber",
+          "type": "string",
+          "title": "The Contactdetails_address_housenumber Schema",
+          "default": "",
+          "examples": [
+            "56"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "contactDetails_address_postcode": {
+          "$id": "#/properties/data/properties/contactDetails_address_postcode",
+          "type": "string",
+          "title": "The Contactdetails_address_postcode Schema",
+          "default": "",
+          "examples": [
+            "14193"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "contactDetails_address_street": {
+          "$id": "#/properties/data/properties/contactDetails_address_street",
+          "type": "string",
+          "title": "The Contactdetails_address_street Schema",
+          "default": "",
+          "examples": [
+            "Koenigsallee"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "contactDetails_cellPhoneNumber": {
+          "$id": "#/properties/data/properties/contactDetails_cellPhoneNumber",
+          "type": "string",
+          "title": "The Contactdetails_cellphonenumber Schema",
+          "default": "",
+          "examples": [
+            "0172 303 60 94"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "contactDetails_cellPhoneNumberAreaCode": {
+          "$id": "#/properties/data/properties/contactDetails_cellPhoneNumberAreaCode",
+          "type": "string",
+          "title": "The Contactdetails_cellphonenumberareacode Schema",
+          "default": "",
+          "examples": [
+            "172"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "contactDetails_cellPhoneNumberCountryCode": {
+          "$id": "#/properties/data/properties/contactDetails_cellPhoneNumberCountryCode",
+          "type": "string",
+          "title": "The Contactdetails_cellphonenumbercountrycode Schema",
+          "default": "",
+          "examples": [
+            "+49"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "contactDetails_cellPhoneNumberSubscriber": {
+          "$id": "#/properties/data/properties/contactDetails_cellPhoneNumberSubscriber",
+          "type": "string",
+          "title": "The Contactdetails_cellphonenumbersubscriber Schema",
+          "default": "",
+          "examples": [
+            "303 60 94"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "contactDetails_company": {
+          "$id": "#/properties/data/properties/contactDetails_company",
+          "type": "string",
+          "title": "The Contactdetails_company Schema",
+          "default": "",
+          "examples": [
+            "MI-KA Immobilien GmbH"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "contactDetails_countryCode": {
+          "$id": "#/properties/data/properties/contactDetails_countryCode",
+          "type": "string",
+          "title": "The Contactdetails_countrycode Schema",
+          "default": "",
+          "examples": [
+            "DEU"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "contactDetails_email": {
+          "$id": "#/properties/data/properties/contactDetails_email",
+          "type": "string",
+          "title": "The Contactdetails_email Schema",
+          "default": "",
+          "examples": [
+            "kontakt@mika-immobilien.de"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "contactDetails_faxNumber": {
+          "$id": "#/properties/data/properties/contactDetails_faxNumber",
+          "type": "string",
+          "title": "The Contactdetails_faxnumber Schema",
+          "default": "",
+          "examples": [
+            "030 29 66 83 01"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "contactDetails_faxNumberAreaCode": {
+          "$id": "#/properties/data/properties/contactDetails_faxNumberAreaCode",
+          "type": "string",
+          "title": "The Contactdetails_faxnumberareacode Schema",
+          "default": "",
+          "examples": [
+            "30"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "contactDetails_faxNumberCountryCode": {
+          "$id": "#/properties/data/properties/contactDetails_faxNumberCountryCode",
+          "type": "string",
+          "title": "The Contactdetails_faxnumbercountrycode Schema",
+          "default": "",
+          "examples": [
+            "+49"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "contactDetails_faxNumberSubscriber": {
+          "$id": "#/properties/data/properties/contactDetails_faxNumberSubscriber",
+          "type": "string",
+          "title": "The Contactdetails_faxnumbersubscriber Schema",
+          "default": "",
+          "examples": [
+            "29 66 83 01"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "contactDetails_firstname": {
+          "$id": "#/properties/data/properties/contactDetails_firstname",
+          "type": "string",
+          "title": "The Contactdetails_firstname Schema",
+          "default": "",
+          "examples": [
+            "Roman"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "contactDetails_homepageUrl": {
+          "$id": "#/properties/data/properties/contactDetails_homepageUrl",
+          "type": "string",
+          "title": "The Contactdetails_homepageurl Schema",
+          "default": "",
+          "examples": [
+            "http://www.mika-immobilien.de"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "contactDetails_lastname": {
+          "$id": "#/properties/data/properties/contactDetails_lastname",
+          "type": "string",
+          "title": "The Contactdetails_lastname Schema",
+          "default": "",
+          "examples": [
+            "Schönherr"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "contactDetails_phoneNumber": {
+          "$id": "#/properties/data/properties/contactDetails_phoneNumber",
+          "type": "string",
+          "title": "The Contactdetails_phonenumber Schema",
+          "default": "",
+          "examples": [
+            "030 29 66 83 00"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "contactDetails_phoneNumberAreaCode": {
+          "$id": "#/properties/data/properties/contactDetails_phoneNumberAreaCode",
+          "type": "string",
+          "title": "The Contactdetails_phonenumberareacode Schema",
+          "default": "",
+          "examples": [
+            "30"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "contactDetails_phoneNumberCountryCode": {
+          "$id": "#/properties/data/properties/contactDetails_phoneNumberCountryCode",
+          "type": "string",
+          "title": "The Contactdetails_phonenumbercountrycode Schema",
+          "default": "",
+          "examples": [
+            "+49"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "contactDetails_phoneNumberSubscriber": {
+          "$id": "#/properties/data/properties/contactDetails_phoneNumberSubscriber",
+          "type": "string",
+          "title": "The Contactdetails_phonenumbersubscriber Schema",
+          "default": "",
+          "examples": [
+            "29 66 83 00"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "contactDetails_salutation": {
+          "$id": "#/properties/data/properties/contactDetails_salutation",
+          "type": "string",
+          "title": "The Contactdetails_salutation Schema",
+          "default": "",
+          "examples": [
+            "MALE"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "contactFormConfiguration_addressField": {
+          "$id": "#/properties/data/properties/contactFormConfiguration_addressField",
+          "type": "string",
+          "title": "The Contactformconfiguration_addressfield Schema",
+          "default": "",
+          "examples": [
+            "MANDATORY"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "contactFormConfiguration_applicationPackageCompletedField": {
+          "$id": "#/properties/data/properties/contactFormConfiguration_applicationPackageCompletedField",
+          "type": "string",
+          "title": "The Contactformconfiguration_applicationpackagecompletedfield Schema",
+          "default": "",
+          "examples": [
+            "OPTIONAL"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "contactFormConfiguration_emailAddressField": {
+          "$id": "#/properties/data/properties/contactFormConfiguration_emailAddressField",
+          "type": "string",
+          "title": "The Contactformconfiguration_emailaddressfield Schema",
+          "default": "",
+          "examples": [
+            "MANDATORY"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "contactFormConfiguration_employmentRelationshipField": {
+          "$id": "#/properties/data/properties/contactFormConfiguration_employmentRelationshipField",
+          "type": "string",
+          "title": "The Contactformconfiguration_employmentrelationshipfield Schema",
+          "default": "",
+          "examples": [
+            "OPTIONAL"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "contactFormConfiguration_firstnameField": {
+          "$id": "#/properties/data/properties/contactFormConfiguration_firstnameField",
+          "type": "string",
+          "title": "The Contactformconfiguration_firstnamefield Schema",
+          "default": "",
+          "examples": [
+            "MANDATORY"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "contactFormConfiguration_freemiumSettings_duration": {
+          "$id": "#/properties/data/properties/contactFormConfiguration_freemiumSettings_duration",
+          "type": "integer",
+          "title": "The Contactformconfiguration_freemiumsettings_duration Schema",
+          "default": 0,
+          "examples": [
+            0
+          ]
+        },
+        "contactFormConfiguration_incomeField": {
+          "$id": "#/properties/data/properties/contactFormConfiguration_incomeField",
+          "type": "string",
+          "title": "The Contactformconfiguration_incomefield Schema",
+          "default": "",
+          "examples": [
+            "OPTIONAL"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "contactFormConfiguration_lastnameField": {
+          "$id": "#/properties/data/properties/contactFormConfiguration_lastnameField",
+          "type": "string",
+          "title": "The Contactformconfiguration_lastnamefield Schema",
+          "default": "",
+          "examples": [
+            "MANDATORY"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "contactFormConfiguration_messageField": {
+          "$id": "#/properties/data/properties/contactFormConfiguration_messageField",
+          "type": "string",
+          "title": "The Contactformconfiguration_messagefield Schema",
+          "default": "",
+          "examples": [
+            "OPTIONAL"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "contactFormConfiguration_moveInDateField": {
+          "$id": "#/properties/data/properties/contactFormConfiguration_moveInDateField",
+          "type": "string",
+          "title": "The Contactformconfiguration_moveindatefield Schema",
+          "default": "",
+          "examples": [
+            "OPTIONAL"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "contactFormConfiguration_numberOfPersonsField": {
+          "$id": "#/properties/data/properties/contactFormConfiguration_numberOfPersonsField",
+          "type": "string",
+          "title": "The Contactformconfiguration_numberofpersonsfield Schema",
+          "default": "",
+          "examples": [
+            "OPTIONAL"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "contactFormConfiguration_petsInHouseholdField": {
+          "$id": "#/properties/data/properties/contactFormConfiguration_petsInHouseholdField",
+          "type": "string",
+          "title": "The Contactformconfiguration_petsinhouseholdfield Schema",
+          "default": "",
+          "examples": [
+            "OPTIONAL"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "contactFormConfiguration_phoneNumberField": {
+          "$id": "#/properties/data/properties/contactFormConfiguration_phoneNumberField",
+          "type": "string",
+          "title": "The Contactformconfiguration_phonenumberfield Schema",
+          "default": "",
+          "examples": [
+            "OPTIONAL"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "contactFormConfiguration_premiumProfileRequired": {
+          "$id": "#/properties/data/properties/contactFormConfiguration_premiumProfileRequired",
+          "type": "string",
+          "title": "The Contactformconfiguration_premiumprofilerequired Schema",
+          "default": "",
+          "examples": [
+            "false"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "contactFormConfiguration_salutationField": {
+          "$id": "#/properties/data/properties/contactFormConfiguration_salutationField",
+          "type": "string",
+          "title": "The Contactformconfiguration_salutationfield Schema",
+          "default": "",
+          "examples": [
+            "MANDATORY"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "imprintLink_xlink_href": {
+          "$id": "#/properties/data/properties/imprintLink_xlink_href",
+          "type": "string",
+          "title": "The Imprintlink_xlink_href Schema",
+          "default": "",
+          "examples": [
+            "https://rest.immobilienscout24.de/restapi/api/search/v1.0/expose/56906504/imprint"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "realEstate_id": {
+          "$id": "#/properties/data/properties/realEstate_id",
+          "type": "string",
+          "title": "The Realestate_id Schema",
+          "default": "",
+          "examples": [
+            "56906504"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "realEstate_xsi_type": {
+          "$id": "#/properties/data/properties/realEstate_xsi_type",
+          "type": "string",
+          "title": "The Realestate_xsi_type Schema",
+          "default": "",
+          "examples": [
+            "expose:ApartmentRent"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "realEstate_address_city": {
+          "$id": "#/properties/data/properties/realEstate_address_city",
+          "type": "string",
+          "title": "The Realestate_address_city Schema",
+          "default": "",
+          "examples": [
+            "Berlin"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "realEstate_address_geoHierarchy_city_fullGeoCodeId": {
+          "$id": "#/properties/data/properties/realEstate_address_geoHierarchy_city_fullGeoCodeId",
+          "type": "string",
+          "title": "The Realestate_address_geohierarchy_city_fullgeocodeid Schema",
+          "default": "",
+          "examples": [
+            "1276003001"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "realEstate_address_geoHierarchy_city_geoCodeId": {
+          "$id": "#/properties/data/properties/realEstate_address_geoHierarchy_city_geoCodeId",
+          "type": "integer",
+          "title": "The Realestate_address_geohierarchy_city_geocodeid Schema",
+          "default": 0,
+          "examples": [
+            1
+          ]
+        },
+        "realEstate_address_geoHierarchy_city_name": {
+          "$id": "#/properties/data/properties/realEstate_address_geoHierarchy_city_name",
+          "type": "string",
+          "title": "The Realestate_address_geohierarchy_city_name Schema",
+          "default": "",
+          "examples": [
+            "Berlin"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "realEstate_address_geoHierarchy_continent_fullGeoCodeId": {
+          "$id": "#/properties/data/properties/realEstate_address_geoHierarchy_continent_fullGeoCodeId",
+          "type": "string",
+          "title": "The Realestate_address_geohierarchy_continent_fullgeocodeid Schema",
+          "default": "",
+          "examples": [
+            "1"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "realEstate_address_geoHierarchy_continent_geoCodeId": {
+          "$id": "#/properties/data/properties/realEstate_address_geoHierarchy_continent_geoCodeId",
+          "type": "integer",
+          "title": "The Realestate_address_geohierarchy_continent_geocodeid Schema",
+          "default": 0,
+          "examples": [
+            1
+          ]
+        },
+        "realEstate_address_geoHierarchy_country_fullGeoCodeId": {
+          "$id": "#/properties/data/properties/realEstate_address_geoHierarchy_country_fullGeoCodeId",
+          "type": "string",
+          "title": "The Realestate_address_geohierarchy_country_fullgeocodeid Schema",
+          "default": "",
+          "examples": [
+            "1276"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "realEstate_address_geoHierarchy_country_geoCodeId": {
+          "$id": "#/properties/data/properties/realEstate_address_geoHierarchy_country_geoCodeId",
+          "type": "integer",
+          "title": "The Realestate_address_geohierarchy_country_geocodeid Schema",
+          "default": 0,
+          "examples": [
+            276
+          ]
+        },
+        "realEstate_address_geoHierarchy_country_name": {
+          "$id": "#/properties/data/properties/realEstate_address_geoHierarchy_country_name",
+          "type": "string",
+          "title": "The Realestate_address_geohierarchy_country_name Schema",
+          "default": "",
+          "examples": [
+            "Deutschland"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "realEstate_address_geoHierarchy_neighbourhood_geoCodeId": {
+          "$id": "#/properties/data/properties/realEstate_address_geoHierarchy_neighbourhood_geoCodeId",
+          "type": "integer",
+          "title": "The Realestate_address_geohierarchy_neighbourhood_geocodeid Schema",
+          "default": 0,
+          "examples": [
+            11000000002029
+          ]
+        },
+        "realEstate_address_geoHierarchy_quarter_fullGeoCodeId": {
+          "$id": "#/properties/data/properties/realEstate_address_geoHierarchy_quarter_fullGeoCodeId",
+          "type": "string",
+          "title": "The Realestate_address_geohierarchy_quarter_fullgeocodeid Schema",
+          "default": "",
+          "examples": [
+            "1276003001046"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "realEstate_address_geoHierarchy_quarter_geoCodeId": {
+          "$id": "#/properties/data/properties/realEstate_address_geoHierarchy_quarter_geoCodeId",
+          "type": "integer",
+          "title": "The Realestate_address_geohierarchy_quarter_geocodeid Schema",
+          "default": 0,
+          "examples": [
+            46
+          ]
+        },
+        "realEstate_address_geoHierarchy_quarter_name": {
+          "$id": "#/properties/data/properties/realEstate_address_geoHierarchy_quarter_name",
+          "type": "string",
+          "title": "The Realestate_address_geohierarchy_quarter_name Schema",
+          "default": "",
+          "examples": [
+            "Mitte (Mitte)"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "realEstate_address_geoHierarchy_region_fullGeoCodeId": {
+          "$id": "#/properties/data/properties/realEstate_address_geoHierarchy_region_fullGeoCodeId",
+          "type": "string",
+          "title": "The Realestate_address_geohierarchy_region_fullgeocodeid Schema",
+          "default": "",
+          "examples": [
+            "1276003"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "realEstate_address_geoHierarchy_region_geoCodeId": {
+          "$id": "#/properties/data/properties/realEstate_address_geoHierarchy_region_geoCodeId",
+          "type": "integer",
+          "title": "The Realestate_address_geohierarchy_region_geocodeid Schema",
+          "default": 0,
+          "examples": [
+            3
+          ]
+        },
+        "realEstate_address_geoHierarchy_region_name": {
+          "$id": "#/properties/data/properties/realEstate_address_geoHierarchy_region_name",
+          "type": "string",
+          "title": "The Realestate_address_geohierarchy_region_name Schema",
+          "default": "",
+          "examples": [
+            "Berlin"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "realEstate_address_postcode": {
+          "$id": "#/properties/data/properties/realEstate_address_postcode",
+          "type": "string",
+          "title": "The Realestate_address_postcode Schema",
+          "default": "",
+          "examples": [
+            "10115"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "realEstate_address_quarter": {
+          "$id": "#/properties/data/properties/realEstate_address_quarter",
+          "type": "string",
+          "title": "The Realestate_address_quarter Schema",
+          "default": "",
+          "examples": [
+            "Mitte (Mitte)"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "realEstate_apartmentType": {
+          "$id": "#/properties/data/properties/realEstate_apartmentType",
+          "type": "string",
+          "title": "The Realestate_apartmenttype Schema",
+          "default": "",
+          "examples": [
+            "ROOF_STOREY"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "realEstate_assistedLiving": {
+          "$id": "#/properties/data/properties/realEstate_assistedLiving",
+          "type": "string",
+          "title": "The Realestate_assistedliving Schema",
+          "default": "",
+          "examples": [
+            "false"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "realEstate_attachments": {
+          "$id": "#/properties/data/properties/realEstate_attachments",
+          "type": "array",
+          "title": "The Realestate_attachments Schema",
+          "items": {
+            "$id": "#/properties/data/properties/realEstate_attachments/items",
+            "type": "object",
+            "title": "The Items Schema",
+            "required": [
+              "@xlink.href",
+              "attachment"
+            ],
+            "properties": {
+              "@xlink.href": {
+                "$id": "#/properties/data/properties/realEstate_attachments/items/properties/@xlink.href",
+                "type": "string",
+                "title": "The @xlink.href Schema",
+                "default": "",
+                "examples": [
+                  "https://rest.immobilienscout24.de/restapi/api/search/v1.0/expose/56906504/attachment"
+                ],
+                "pattern": "^(.*)$"
+              },
+              "attachment": {
+                "$id": "#/properties/data/properties/realEstate_attachments/items/properties/attachment",
+                "type": "array",
+                "title": "The Attachment Schema",
+                "items": {
+                  "$id": "#/properties/data/properties/realEstate_attachments/items/properties/attachment/items",
+                  "type": "object",
+                  "title": "The Items Schema",
+                  "required": [
+                    "@xsi.type",
+                    "@xlink.href",
+                    "@id",
+                    "@modification",
+                    "@creation",
+                    "@publishDate",
+                    "title",
+                    "floorplan",
+                    "titlePicture",
+                    "urls"
+                  ],
+                  "properties": {
+                    "@xsi.type": {
+                      "$id": "#/properties/data/properties/realEstate_attachments/items/properties/attachment/items/properties/@xsi.type",
+                      "type": "string",
+                      "title": "The @xsi.type Schema",
+                      "default": "",
+                      "examples": [
+                        "common:Picture"
+                      ],
+                      "pattern": "^(.*)$"
+                    },
+                    "@xlink.href": {
+                      "$id": "#/properties/data/properties/realEstate_attachments/items/properties/attachment/items/properties/@xlink.href",
+                      "type": "string",
+                      "title": "The @xlink.href Schema",
+                      "default": "",
+                      "examples": [
+                        "https://rest.immobilienscout24.de/restapi/api/search/v1.0/expose/56906504/attachment/1"
+                      ],
+                      "pattern": "^(.*)$"
+                    },
+                    "@id": {
+                      "$id": "#/properties/data/properties/realEstate_attachments/items/properties/attachment/items/properties/@id",
+                      "type": "string",
+                      "title": "The @id Schema",
+                      "default": "",
+                      "examples": [
+                        "1"
+                      ],
+                      "pattern": "^(.*)$"
+                    },
+                    "@modification": {
+                      "$id": "#/properties/data/properties/realEstate_attachments/items/properties/attachment/items/properties/@modification",
+                      "type": "string",
+                      "title": "The @modification Schema",
+                      "default": "",
+                      "examples": [
+                        "2019-01-12T11:32:11.975Z"
+                      ],
+                      "pattern": "^(.*)$"
+                    },
+                    "@creation": {
+                      "$id": "#/properties/data/properties/realEstate_attachments/items/properties/attachment/items/properties/@creation",
+                      "type": "string",
+                      "title": "The @creation Schema",
+                      "default": "",
+                      "examples": [
+                        "2019-01-12T11:32:11.975Z"
+                      ],
+                      "pattern": "^(.*)$"
+                    },
+                    "@publishDate": {
+                      "$id": "#/properties/data/properties/realEstate_attachments/items/properties/attachment/items/properties/@publishDate",
+                      "type": "string",
+                      "title": "The @publishdate Schema",
+                      "default": "",
+                      "examples": [
+                        "2019-01-12T11:32:11.975Z"
+                      ],
+                      "pattern": "^(.*)$"
+                    },
+                    "title": {
+                      "$id": "#/properties/data/properties/realEstate_attachments/items/properties/attachment/items/properties/title",
+                      "type": "string",
+                      "title": "The Title Schema",
+                      "default": "",
+                      "examples": [
+                        "Hofansicht"
+                      ],
+                      "pattern": "^(.*)$"
+                    },
+                    "floorplan": {
+                      "$id": "#/properties/data/properties/realEstate_attachments/items/properties/attachment/items/properties/floorplan",
+                      "type": "string",
+                      "title": "The Floorplan Schema",
+                      "default": "",
+                      "examples": [
+                        "false"
+                      ],
+                      "pattern": "^(.*)$"
+                    },
+                    "titlePicture": {
+                      "$id": "#/properties/data/properties/realEstate_attachments/items/properties/attachment/items/properties/titlePicture",
+                      "type": "string",
+                      "title": "The Titlepicture Schema",
+                      "default": "",
+                      "examples": [
+                        "true"
+                      ],
+                      "pattern": "^(.*)$"
+                    },
+                    "urls": {
+                      "$id": "#/properties/data/properties/realEstate_attachments/items/properties/attachment/items/properties/urls",
+                      "type": "array",
+                      "title": "The Urls Schema",
+                      "items": {
+                        "$id": "#/properties/data/properties/realEstate_attachments/items/properties/attachment/items/properties/urls/items",
+                        "type": "object",
+                        "title": "The Items Schema",
+                        "required": [
+                          "url"
+                        ],
+                        "properties": {
+                          "url": {
+                            "$id": "#/properties/data/properties/realEstate_attachments/items/properties/attachment/items/properties/urls/items/properties/url",
+                            "type": "array",
+                            "title": "The Url Schema",
+                            "items": {
+                              "$id": "#/properties/data/properties/realEstate_attachments/items/properties/attachment/items/properties/urls/items/properties/url/items",
+                              "type": "object",
+                              "title": "The Items Schema",
+                              "required": [
+                                "@scale",
+                                "@href"
+                              ],
+                              "properties": {
+                                "@scale": {
+                                  "$id": "#/properties/data/properties/realEstate_attachments/items/properties/attachment/items/properties/urls/items/properties/url/items/properties/@scale",
+                                  "type": "string",
+                                  "title": "The @scale Schema",
+                                  "default": "",
+                                  "examples": [
+                                    "SCALE_60x60"
+                                  ],
+                                  "pattern": "^(.*)$"
+                                },
+                                "@href": {
+                                  "$id": "#/properties/data/properties/realEstate_attachments/items/properties/attachment/items/properties/urls/items/properties/url/items/properties/@href",
+                                  "type": "string",
+                                  "title": "The @href Schema",
+                                  "default": "",
+                                  "examples": [
+                                    "https://pictures.immobilienscout24.de/listings/5816a52c-3e61-48c4-aef7-861207e26f5b-617586092.jpg/ORIG/resize/60x60%3E/extent/60x60/format/jpg"
+                                  ],
+                                  "pattern": "^(.*)$"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "realEstate_balcony": {
+          "$id": "#/properties/data/properties/realEstate_balcony",
+          "type": "string",
+          "title": "The Realestate_balcony Schema",
+          "default": "",
+          "examples": [
+            "true"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "realEstate_baseRent": {
+          "$id": "#/properties/data/properties/realEstate_baseRent",
+          "type": "number",
+          "title": "The Realestate_baserent Schema",
+          "default": 0.0,
+          "examples": [
+            1715.19
+          ]
+        },
+        "realEstate_buildingEnergyRatingType": {
+          "$id": "#/properties/data/properties/realEstate_buildingEnergyRatingType",
+          "type": "string",
+          "title": "The Realestate_buildingenergyratingtype Schema",
+          "default": "",
+          "examples": [
+            "ENERGY_CONSUMPTION"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "realEstate_builtInKitchen": {
+          "$id": "#/properties/data/properties/realEstate_builtInKitchen",
+          "type": "string",
+          "title": "The Realestate_builtinkitchen Schema",
+          "default": "",
+          "examples": [
+            "true"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "realEstate_calculatedTotalRent": {
+          "$id": "#/properties/data/properties/realEstate_calculatedTotalRent",
+          "type": "number",
+          "title": "The Realestate_calculatedtotalrent Schema",
+          "default": 0.0,
+          "examples": [
+            2115.19
+          ]
+        },
+        "realEstate_calculatedTotalRentScope": {
+          "$id": "#/properties/data/properties/realEstate_calculatedTotalRentScope",
+          "type": "string",
+          "title": "The Realestate_calculatedtotalrentscope Schema",
+          "default": "",
+          "examples": [
+            "WARM_RENT"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "realEstate_cellar": {
+          "$id": "#/properties/data/properties/realEstate_cellar",
+          "type": "string",
+          "title": "The Realestate_cellar Schema",
+          "default": "",
+          "examples": [
+            "NOT_APPLICABLE"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "realEstate_certificateOfEligibilityNeeded": {
+          "$id": "#/properties/data/properties/realEstate_certificateOfEligibilityNeeded",
+          "type": "string",
+          "title": "The Realestate_certificateofeligibilityneeded Schema",
+          "default": "",
+          "examples": [
+            "false"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "realEstate_condition": {
+          "$id": "#/properties/data/properties/realEstate_condition",
+          "type": "string",
+          "title": "The Realestate_condition Schema",
+          "default": "",
+          "examples": [
+            "FIRST_TIME_USE_AFTER_REFURBISHMENT"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "realEstate_constructionYear": {
+          "$id": "#/properties/data/properties/realEstate_constructionYear",
+          "type": "integer",
+          "title": "The Realestate_constructionyear Schema",
+          "default": 0,
+          "examples": [
+            1880
+          ]
+        },
+        "realEstate_courtage_hasCourtage": {
+          "$id": "#/properties/data/properties/realEstate_courtage_hasCourtage",
+          "type": "string",
+          "title": "The Realestate_courtage_hascourtage Schema",
+          "default": "",
+          "examples": [
+            "NOT_APPLICABLE"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "realEstate_creationDate": {
+          "$id": "#/properties/data/properties/realEstate_creationDate",
+          "type": "string",
+          "title": "The Realestate_creationdate Schema",
+          "default": "",
+          "examples": [
+            "2017-07-14T16:20:06.000+02:00"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "realEstate_deposit": {
+          "$id": "#/properties/data/properties/realEstate_deposit",
+          "type": "string",
+          "title": "The Realestate_deposit Schema",
+          "default": "",
+          "examples": [
+            "3 Kaltmieten"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "realEstate_descriptionNote": {
+          "$id": "#/properties/data/properties/realEstate_descriptionNote",
+          "type": "string",
+          "title": "The Realestate_descriptionnote Schema",
+          "default": "",
+          "examples": [
+            "Dieses hochwertig sanierte und denkmalgeschützte Gebäudeensemble in der Chausseestraße befindet sich in zentral innerstädtischer Berlin-Mitte-Lage, direkt vis-a-vis zum Standort der neuen Bundesnachrichtenzentrale der Bundesrepublik Deutschland, in Hauptbahnhof-und Nordbanhofnähe, dem Regierungsviertel, der Friedrichstraße sowie der Charité.\n\n\nAusgesprochen großzügige, in ihrem Industriecharme belassene Treppenaufgänge, Etagenflure, sowie die Backsteinfassade und die liebevolle Gestaltung der Innenhöfe verleihen dieser Wohnanlage das gewisse Etwas.\n\nDie Wohnungen liegen hell und vor allem ruhig in der sogenannten “zweiten Reihe“, d. h. sie sind vollständig von der Straßenseite durch ein\ndavor befindliches Gebäude (Hotel) abgeschirmt.\n\nDer Innenhof erhält eine Gestaltung als Steingarten mit asiatischen Bezügen."
+          ],
+          "pattern": "^(.*)$"
+        },
+        "realEstate_energyCertificate_energyCertificateAvailability": {
+          "$id": "#/properties/data/properties/realEstate_energyCertificate_energyCertificateAvailability",
+          "type": "string",
+          "title": "The Realestate_energycertificate_energycertificateavailability Schema",
+          "default": "",
+          "examples": [
+            "AVAILABLE"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "realEstate_energyCertificate_energyCertificateCreationDate": {
+          "$id": "#/properties/data/properties/realEstate_energyCertificate_energyCertificateCreationDate",
+          "type": "string",
+          "title": "The Realestate_energycertificate_energycertificatecreationdate Schema",
+          "default": "",
+          "examples": [
+            "BEFORE_01_MAY_2014"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "realEstate_energyConsumptionContainsWarmWater": {
+          "$id": "#/properties/data/properties/realEstate_energyConsumptionContainsWarmWater",
+          "type": "string",
+          "title": "The Realestate_energyconsumptioncontainswarmwater Schema",
+          "default": "",
+          "examples": [
+            "NOT_APPLICABLE"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "realEstate_energyPerformanceCertificate": {
+          "$id": "#/properties/data/properties/realEstate_energyPerformanceCertificate",
+          "type": "string",
+          "title": "The Realestate_energyperformancecertificate Schema",
+          "default": "",
+          "examples": [
+            "true"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "realEstate_externalId": {
+          "$id": "#/properties/data/properties/realEstate_externalId",
+          "type": "string",
+          "title": "The Realestate_externalid Schema",
+          "default": "",
+          "examples": [
+            "56906504"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "realEstate_floor": {
+          "$id": "#/properties/data/properties/realEstate_floor",
+          "type": "integer",
+          "title": "The Realestate_floor Schema",
+          "default": 0,
+          "examples": [
+            5
+          ]
+        },
+        "realEstate_floorplan": {
+          "$id": "#/properties/data/properties/realEstate_floorplan",
+          "type": "string",
+          "title": "The Realestate_floorplan Schema",
+          "default": "",
+          "examples": [
+            "false"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "realEstate_freeFrom": {
+          "$id": "#/properties/data/properties/realEstate_freeFrom",
+          "type": "string",
+          "title": "The Realestate_freefrom Schema",
+          "default": "",
+          "examples": [
+            "01.07.17"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "realEstate_furnishingNote": {
+          "$id": "#/properties/data/properties/realEstate_furnishingNote",
+          "type": "string",
+          "title": "The Realestate_furnishingnote Schema",
+          "default": "",
+          "examples": [
+            "Die Wohnung verfügt über die folgenden Ausstattungsmerkmale:\n- drei helle Zimmer\n- Südterrasse\n- Parkettboden\n- gespachtelte Wände\n- Fußbodenheizung\n- Einbauschrank im Flur\n- hochwertiges, modern gefliestes Wannen-/Duschbad mit Oberlicht\n- Waschtisch aus Naturstein\n- zusätzliche WC(DUschbad mit Oberlicht\n- Handtuch-Heizkörper\n- teilweise Wirtschaftsraum mit Waschmaschinenanschluss\n- Amerikanische Einbauküche auf Fliesenfußboden\n- Die Kücheneinrichtung bestehend aus Unter- und Oberschränken ausgestattet mit weißen Hochglanzfronten, Einbauspüle, vollintegrierter Spülmaschine, Herd mit Cerankochfeld, Mikrowelle und Umlufthaube sowie integrierter Kühl-/ Gefrierkombination\n- Aufzug\n- Fahrradraum\n– ein Kellerraum kann auf Wunsch angemietet werden"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "realEstate_garden": {
+          "$id": "#/properties/data/properties/realEstate_garden",
+          "type": "string",
+          "title": "The Realestate_garden Schema",
+          "default": "",
+          "examples": [
+            "false"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "realEstate_guestToilet": {
+          "$id": "#/properties/data/properties/realEstate_guestToilet",
+          "type": "string",
+          "title": "The Realestate_guesttoilet Schema",
+          "default": "",
+          "examples": [
+            "YES"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "realEstate_handicappedAccessible": {
+          "$id": "#/properties/data/properties/realEstate_handicappedAccessible",
+          "type": "string",
+          "title": "The Realestate_handicappedaccessible Schema",
+          "default": "",
+          "examples": [
+            "NOT_APPLICABLE"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "realEstate_heatingCosts": {
+          "$id": "#/properties/data/properties/realEstate_heatingCosts",
+          "type": "integer",
+          "title": "The Realestate_heatingcosts Schema",
+          "default": 0,
+          "examples": [
+            200
+          ]
+        },
+        "realEstate_heatingCostsInServiceCharge": {
+          "$id": "#/properties/data/properties/realEstate_heatingCostsInServiceCharge",
+          "type": "string",
+          "title": "The Realestate_heatingcostsinservicecharge Schema",
+          "default": "",
+          "examples": [
+            "YES"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "realEstate_heatingType": {
+          "$id": "#/properties/data/properties/realEstate_heatingType",
+          "type": "string",
+          "title": "The Realestate_heatingtype Schema",
+          "default": "",
+          "examples": [
+            "CENTRAL_HEATING"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "realEstate_heatingTypeEnev2014": {
+          "$id": "#/properties/data/properties/realEstate_heatingTypeEnev2014",
+          "type": "string",
+          "title": "The Realestate_heatingtypeenev2014 Schema",
+          "default": "",
+          "examples": [
+            "CENTRAL_HEATING"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "realEstate_interiorQuality": {
+          "$id": "#/properties/data/properties/realEstate_interiorQuality",
+          "type": "string",
+          "title": "The Realestate_interiorquality Schema",
+          "default": "",
+          "examples": [
+            "SOPHISTICATED"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "realEstate_lastModificationDate": {
+          "$id": "#/properties/data/properties/realEstate_lastModificationDate",
+          "type": "string",
+          "title": "The Realestate_lastmodificationdate Schema",
+          "default": "",
+          "examples": [
+            "2019-01-12T11:32:11.975Z"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "realEstate_lastRefurbishment": {
+          "$id": "#/properties/data/properties/realEstate_lastRefurbishment",
+          "type": "integer",
+          "title": "The Realestate_lastrefurbishment Schema",
+          "default": 0,
+          "examples": [
+            2010
+          ]
+        },
+        "realEstate_lift": {
+          "$id": "#/properties/data/properties/realEstate_lift",
+          "type": "string",
+          "title": "The Realestate_lift Schema",
+          "default": "",
+          "examples": [
+            "true"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "realEstate_livingSpace": {
+          "$id": "#/properties/data/properties/realEstate_livingSpace",
+          "type": "integer",
+          "title": "The Realestate_livingspace Schema",
+          "default": 0,
+          "examples": [
+            115
+          ]
+        },
+        "realEstate_locationNote": {
+          "$id": "#/properties/data/properties/realEstate_locationNote",
+          "type": "string",
+          "title": "The Realestate_locationnote Schema",
+          "default": "",
+          "examples": [
+            "Das Objekt befindet sich im Herzen Berlins.\n\nIn unmittelbarer Nähe befinden sich Einkaufsmöglichkeiten wie Supermärkte, Bäcker, Cafes, sowie verschiedene Restaurants. Die Oranienburger Straße und der bekannte Hackesche Markt sowie die Friedrichstraße (beliebte Shoppingadressen) sind nicht nur der Anziehungspunkt für Touristen aus aller Welt, sondern auch vieler Berliner. Alle Orte sind zu Fuß in wenigen Minuten zu erreichen. Hier finden Sie auch Diskotheken, Bars und das Nachtleben von Berlin.\n\nFußläufig erreichbar sind die öffentlichen Verkehrsmittel S-Bahn (Station Nordbahnhof), U-Bahn (Station Zinnowitzer Str.), diverse Straßenbahnen und Buslinien. Der Hauptbahnhof und Flughafen sind per Pkw von Mitte aus in ca. 5 Minuten bzw. 20 Minuten erreichbar. Vom Berliner Stadtzentrum (Potsdamer Platz) aus ist das Objekt mit dem Pkw über den Tiergartentunnel-Hannoverischer Straße, Richtung Oranienburger Tor zur Torstraße in ca. 7 Minuten zu erreichen (3,79 km)."
+          ],
+          "pattern": "^(.*)$"
+        },
+        "realEstate_numberOfFloors": {
+          "$id": "#/properties/data/properties/realEstate_numberOfFloors",
+          "type": "integer",
+          "title": "The Realestate_numberoffloors Schema",
+          "default": 0,
+          "examples": [
+            5
+          ]
+        },
+        "realEstate_numberOfRooms": {
+          "$id": "#/properties/data/properties/realEstate_numberOfRooms",
+          "type": "integer",
+          "title": "The Realestate_numberofrooms Schema",
+          "default": 0,
+          "examples": [
+            3
+          ]
+        },
+        "realEstate_otherNote": {
+          "$id": "#/properties/data/properties/realEstate_otherNote",
+          "type": "string",
+          "title": "The Realestate_othernote Schema",
+          "default": "",
+          "examples": [
+            "Staffelmietvereinbarung ab dem 3. + 5. Mietjahr 4% der Nettokaltmiete.\n\nZur Vereinbarung eines Besichtigungstermins (gerne auch am Wochenende) stehen wir Ihnen per E-mail oder telefonisch unter der Nummer 030 / 29 66 83 00 zur Verfügung.\n\nWir freuen uns auf Ihren Anruf!\n\nZUR BEACHTUNG:\n\nWir vermieten in diesem Objekt diverse andere Wohnungen mit identischer Sanierungsqualität.\n\nDiese haben andere Geschoßlagen, Wohnflächen, Grundrisse und Mietzinskonditionen.\n\nSprechen Sie uns darauf an. Gerne stellen wir Ihnen diese vor!"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "realEstate_petsAllowed": {
+          "$id": "#/properties/data/properties/realEstate_petsAllowed",
+          "type": "string",
+          "title": "The Realestate_petsallowed Schema",
+          "default": "",
+          "examples": [
+            "NO_INFORMATION"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "realEstate_referencePriceApiCall": {
+          "$id": "#/properties/data/properties/realEstate_referencePriceApiCall",
+          "type": "string",
+          "title": "The Realestate_referencepriceapicall Schema",
+          "default": "",
+          "examples": [
+            "https://www.immobilienscout24.de/realestatevaluation/ajax/v2.2/referenceprice/region/3/city/1/district/46?realEstateType=0&price=14.91&livingArea=115&constructionYear=1880&firstTimeUse=false"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "realEstate_referencePriceServiceCall": {
+          "$id": "#/properties/data/properties/realEstate_referencePriceServiceCall",
+          "type": "string",
+          "title": "The Realestate_referencepriceservicecall Schema",
+          "default": "",
+          "examples": [
+            "https://www.immobilienscout24.de/realestatevaluation/ajax/v2.2/referenceprice/region/3/city/1/district/46?realEstateType=0&price=14.91&livingArea=115&constructionYear=1880&firstTimeUse=false"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "realEstate_serviceCharge": {
+          "$id": "#/properties/data/properties/realEstate_serviceCharge",
+          "type": "integer",
+          "title": "The Realestate_servicecharge Schema",
+          "default": 0,
+          "examples": [
+            400
+          ]
+        },
+        "realEstate_state": {
+          "$id": "#/properties/data/properties/realEstate_state",
+          "type": "string",
+          "title": "The Realestate_state Schema",
+          "default": "",
+          "examples": [
+            "ACTIVE"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "realEstate_thermalCharacteristic": {
+          "$id": "#/properties/data/properties/realEstate_thermalCharacteristic",
+          "type": "integer",
+          "title": "The Realestate_thermalcharacteristic Schema",
+          "default": 0,
+          "examples": [
+            91
+          ]
+        },
+        "realEstate_title": {
+          "$id": "#/properties/data/properties/realEstate_title",
+          "type": "string",
+          "title": "The Realestate_title Schema",
+          "default": "",
+          "examples": [
+            "Nähe Hauptbhf., Charité + Friedrichstr./Exklusive, helle DG-Wohnung in Industriedenkmal"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "realEstate_titlePicture_creation": {
+          "$id": "#/properties/data/properties/realEstate_titlePicture_creation",
+          "type": "string",
+          "title": "The Realestate_titlepicture_creation Schema",
+          "default": "",
+          "examples": [
+            "2019-01-12T11:32:11.975Z"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "realEstate_titlePicture_id": {
+          "$id": "#/properties/data/properties/realEstate_titlePicture_id",
+          "type": "string",
+          "title": "The Realestate_titlepicture_id Schema",
+          "default": "",
+          "examples": [
+            "1"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "realEstate_titlePicture_modification": {
+          "$id": "#/properties/data/properties/realEstate_titlePicture_modification",
+          "type": "string",
+          "title": "The Realestate_titlepicture_modification Schema",
+          "default": "",
+          "examples": [
+            "2019-01-12T11:32:11.975Z"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "realEstate_titlePicture_publishDate": {
+          "$id": "#/properties/data/properties/realEstate_titlePicture_publishDate",
+          "type": "string",
+          "title": "The Realestate_titlepicture_publishdate Schema",
+          "default": "",
+          "examples": [
+            "2019-01-12T11:32:11.975Z"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "realEstate_titlePicture_floorplan": {
+          "$id": "#/properties/data/properties/realEstate_titlePicture_floorplan",
+          "type": "string",
+          "title": "The Realestate_titlepicture_floorplan Schema",
+          "default": "",
+          "examples": [
+            "false"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "realEstate_titlePicture_title": {
+          "$id": "#/properties/data/properties/realEstate_titlePicture_title",
+          "type": "string",
+          "title": "The Realestate_titlepicture_title Schema",
+          "default": "",
+          "examples": [
+            "Hofansicht"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "realEstate_titlePicture_titlePicture": {
+          "$id": "#/properties/data/properties/realEstate_titlePicture_titlePicture",
+          "type": "string",
+          "title": "The Realestate_titlepicture_titlepicture Schema",
+          "default": "",
+          "examples": [
+            "true"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "realEstate_titlePicture_urls": {
+          "$id": "#/properties/data/properties/realEstate_titlePicture_urls",
+          "type": "array",
+          "title": "The Realestate_titlepicture_urls Schema",
+          "items": {
+            "$id": "#/properties/data/properties/realEstate_titlePicture_urls/items",
+            "type": "object",
+            "title": "The Items Schema",
+            "required": [
+              "url"
+            ],
+            "properties": {
+              "url": {
+                "$id": "#/properties/data/properties/realEstate_titlePicture_urls/items/properties/url",
+                "type": "array",
+                "title": "The Url Schema",
+                "items": {
+                  "$id": "#/properties/data/properties/realEstate_titlePicture_urls/items/properties/url/items",
+                  "type": "object",
+                  "title": "The Items Schema",
+                  "required": [
+                    "@scale",
+                    "@href"
+                  ],
+                  "properties": {
+                    "@scale": {
+                      "$id": "#/properties/data/properties/realEstate_titlePicture_urls/items/properties/url/items/properties/@scale",
+                      "type": "string",
+                      "title": "The @scale Schema",
+                      "default": "",
+                      "examples": [
+                        "SCALE_60x60"
+                      ],
+                      "pattern": "^(.*)$"
+                    },
+                    "@href": {
+                      "$id": "#/properties/data/properties/realEstate_titlePicture_urls/items/properties/url/items/properties/@href",
+                      "type": "string",
+                      "title": "The @href Schema",
+                      "default": "",
+                      "examples": [
+                        "https://pictures.immobilienscout24.de/listings/5816a52c-3e61-48c4-aef7-861207e26f5b-617586092.jpg/ORIG/resize/60x60%3E/extent/60x60/format/jpg"
+                      ],
+                      "pattern": "^(.*)$"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "realEstate_totalRent": {
+          "$id": "#/properties/data/properties/realEstate_totalRent",
+          "type": "number",
+          "title": "The Realestate_totalrent Schema",
+          "default": 0.0,
+          "examples": [
+            2115.19
+          ]
+        },
+        "realEstate_useAsFlatshareRoom": {
+          "$id": "#/properties/data/properties/realEstate_useAsFlatshareRoom",
+          "type": "string",
+          "title": "The Realestate_useasflatshareroom Schema",
+          "default": "",
+          "examples": [
+            "NOT_APPLICABLE"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "realtorValuationJSONLink_xlink_href": {
+          "$id": "#/properties/data/properties/realtorValuationJSONLink_xlink_href",
+          "type": "string",
+          "title": "The Realtorvaluationjsonlink_xlink_href Schema",
+          "default": "",
+          "examples": [
+            "https://www.immobilienscout24.de/expose/realtorEvaluation/no-information"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "realtorValuationV2JSONLink_xlink_href": {
+          "$id": "#/properties/data/properties/realtorValuationV2JSONLink_xlink_href",
+          "type": "string",
+          "title": "The Realtorvaluationv2jsonlink_xlink_href Schema",
+          "default": "",
+          "examples": [
+            "https://www.immobilienscout24.de/expose/realtorEvaluation/no-information"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "realtorValuationV2JSONPLink_xlink_href": {
+          "$id": "#/properties/data/properties/realtorValuationV2JSONPLink_xlink_href",
+          "type": "string",
+          "title": "The Realtorvaluationv2jsonplink_xlink_href Schema",
+          "default": "",
+          "examples": [
+            "https://www.immobilienscout24.de/expose/realtorEvaluation/no-information"
+          ],
+          "pattern": "^(.*)$"
+        }
+      }
+    }
+  }
+}
